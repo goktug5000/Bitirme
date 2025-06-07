@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
+from flask import Flask, request, jsonify
 
 def load_data(file_path):
     data = []
